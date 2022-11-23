@@ -1,0 +1,11 @@
+framework module SKSampleSDK {
+  umbrella header "SKSampleSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module SKSampleSDK.Swift {
+    header "SKSampleSDK-Swift.h"
+    requires objc
+}
