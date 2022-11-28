@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SKSampleSDK",
+    name: "SK_SKSampleSDK",
     platforms: [.iOS(.v11)],
     products: [
         .library(
